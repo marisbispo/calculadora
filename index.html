@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Calculator app</title>
+
+
+</head>
+
+<body>
+  <div class="calculadora">
+    <h1>calc</h1>
+    <input class="input" />
+    <table class="tabela">
+      <tr class="calculadora-numeros-operadores">
+        <td><button>7</button></td>
+        <td><button>8</button></td>
+        <td><button>9</button></td>
+        <td><button class="del-reset">del</button></td>
+      </tr>
+      <tr class="calculadora-numeros-operadores">
+        <td><button>4</button></td>
+        <td><button>5</button></td>
+        <td><button>6</button></td>
+        <td><button data-action="add">+</button></td>
+      </tr>
+      <tr class="calculadora-numeros-operadores">
+        <td><button>1</button></td>
+        <td><button>2</button></td>
+        <td><button>3</button></td>
+        <td><button data-action="subtract">-</button></td>
+      </tr>
+      <tr class="calculadora-numeros-operadores">
+        <td><button data-action="decimal">.</button></td>
+        <td><button>0</button></td>
+        <td><button data-action="divide">/</button></td>
+        <td><button data-action="multiply">x</button></td>
+      </tr>
+      <tr class="reset-igual">
+        <td><button class="del-reset" data-action="reset">reset</button></td>
+        <td><button data-action="calculate">=</button></td>
+
+      </tr>
+    </table>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

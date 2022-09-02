@@ -54,3 +54,30 @@ function calcular(numero1, operador, numero2) {
 
   input.value = result;
 }
+
+//////////////
+
+const radio = document.querySelector('.radio');
+
+console.log(radio);
+
+radio.addEventListener('change', clicouBolinha);
+
+function clicouBolinha({ target }) {
+  const name = target.value;
+  if (name === '1') {
+    document.documentElement.classList.remove('tema2');
+    document.documentElement.classList.remove('tema3');
+  }
+  if (name === '2') {
+    console.log('tem que mudar a cor');
+    document.documentElement.classList.add('tema2');
+    document.documentElement.classList.remove('tema3');
+  }
+
+  if (name === '3') {
+    console.log('tem que mudar a cor');
+    document.documentElement.classList.remove('tema2');
+    document.documentElement.classList.add('tema3');
+  }
+}

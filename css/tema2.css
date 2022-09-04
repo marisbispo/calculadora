@@ -1,0 +1,48 @@
+/* tema 2*/
+
+.tema2 body{
+  background: hsl(0, 0%, 90%);
+  color: hsl(60, 10%, 19%);
+}
+
+.tema2 h1, .tema2 .escolher-tema span, .tema2 .numero-radio, .tema2 .input {
+  color: hsl(60, 10%, 19%);
+}
+
+.tema2 .radio {
+  background: hsl(0, 5%, 81%);
+  border: 3px solid hsl(0, 5%, 81%);
+}
+.tema2 input[type="radio"] {
+  background-color: hsl(0, 5%, 81%);
+}
+.tema2 input[type="radio"]:checked {
+  background-color: hsl(25, 98%, 40%);
+}
+
+.tema2 .input {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.tema2 table {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.tema2 .reset-igual button{
+  background: hsl(25, 98%, 40%);
+  border-bottom: 4px solid hsl(25, 99%, 27%);
+}
+
+.tema2 .reset-igual button:hover, .tema2 input[type="radio"]:hover {
+  background: #e57d32;
+}
+
+
+.tema2 .calculadora-numeros-operadores .del-reset, .tema2 .reset-igual .del-reset{
+  background: hsl(185, 42%, 37%);
+  border-bottom: 4px solid hsl(185, 58%, 25%);
+}
+
+.tema2 .calculadora-numeros-operadores .del-reset:hover, .tema2 .reset-igual .del-reset:hover{
+  background:#58a3aa;
+}

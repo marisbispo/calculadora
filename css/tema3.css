@@ -1,0 +1,57 @@
+
+
+/*tema 3 */
+
+.tema3 body{
+  background: hsl(268, 75%, 9%);
+
+}
+
+.tema3 h1, .tema3 .escolher-tema span, .tema3 .numero-radio, .tema3 .input, .tema3 .calculadora-numeros-operadores button {
+  color: hsl(52, 100%, 62%);
+}
+
+.tema3 input[type="radio"]:checked {
+  background-color: hsl(176, 100%, 44%);
+}
+
+.tema3 .reset-igual button{
+  background: hsl(176, 100%, 44%);
+  border-bottom: 4px solid hsl(177, 92%, 70%);
+}
+
+.tema3 table, .tema3 .radio, .tema3 input[type="radio"], .tema3 .input {
+ background: hsl(268, 71%, 12%)
+}
+
+.tema3 .radio{
+  border: 3px solid hsl(268, 71%, 12%);
+}
+
+.tema3 input[type="radio"]:checked {
+  background-color:  hsl(176, 100%, 44%);
+}
+
+.tema3 .reset-igual button:hover, .tema3 input[type="radio"]:hover {
+  background-color: #85e5e0;
+}
+
+
+.tema3 .calculadora-numeros-operadores button{
+  background: hsl(268, 47%, 21%);
+  border-bottom: 4px solid hsl(290, 70%, 36%);
+}
+
+.tema3 .calculadora-numeros-operadores button:hover{
+  background: #602f9a;
+}
+
+.tema3 .calculadora-numeros-operadores .del-reset, .tema3 .reset-igual .del-reset{
+  background: hsl(281, 89%, 26%);
+  border-bottom: 4px solid hsl(285, 91%, 52%);
+  color:white;
+}
+
+.tema3 .calculadora-numeros-operadores .del-reset:hover, .tema3 .reset-igual .del-reset:hover{
+  background:#782c9e;
+}

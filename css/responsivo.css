@@ -1,0 +1,26 @@
+@media (max-width:470px){
+  .calculadora{
+  width: 350px;
+  }
+
+  .input{
+    max-width: 350px;
+    box-sizing: border-box;
+    height: 60px;
+  }
+
+  table {
+    max-width: 350px;
+  }
+}
+
+@media (max-width:380px){
+  .calculadora, .input{
+    max-width: 320px;
+  }
+
+  table {
+    max-width: 320px;
+    padding: 10px;
+  }
+}
